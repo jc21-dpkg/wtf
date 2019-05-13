@@ -4,7 +4,7 @@ sudo apt-get install -y  wget make devscripts
 
 PACKAGE=wtf
 GH_USER=wtfutil
-VERSION=`cat ../version`
+VERSION=`cat version`
 
 # Clean
 rm -rf ${PACKAGE}-${VERSION}

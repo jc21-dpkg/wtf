@@ -1,0 +1,23 @@
+Source: wtf
+Section: util
+Priority: optional
+Maintainer: Gerrit Pape <pape@smarden.org>
+Uploaders: Jonathan Nieder <jrnieder@gmail.com>, Anders Kaseorg <andersk@mit.edu>
+Build-Depends: golang
+Standards-Version: 4.3.0.1
+Homepage: https://wtfutil.com
+Vcs-Git: https://github.com/wtfutil/wtf.git
+Vcs-Browser: https://github.com/wtfutil/wtf
+
+Package: wtf
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: WTF is a personal information dashboard for your terminal, developed for those who spend
+  most of their day in the command line. It allows you to monitor systems, services, and
+  important information that you otherwise might keep browser tabs open for, the kinds of
+  things you don’t always need visible, but do check in on every now and then. Keep an eye
+  on your OpsGenie schedules, Google Calendar, Git and GitHub repositories, and New Relic
+  deployments. See who's away in BambooHR, which Jira tickets are assigned to you, and what
+  time it is in Barcelona. It even has weather. And clocks. And emoji.

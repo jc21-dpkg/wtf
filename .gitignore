@@ -1,0 +1,10 @@
+.idea
+._*
+.DS_Store
+RPMS
+SRPMS
+DEPS
+BUILD
+BUILDROOT
+*.swp
+git*

@@ -1,0 +1,69 @@
+Version v0.10.0; changes since v0.9.2:
+---------------------------------------
+
+9160d1f Remove Windows build target. It fails to build
+cbb147f Update CHANGELOG.md
+b4b39d8 Merge pull request #447 from wtfutil/pagerduty-schedule-specifications
+2f2599b Merge branch 'master' into pagerduty-schedule-specifications
+5fec878 Merge branch 'Seanstoppable-autohelp'
+a2e67fa Merge branch 'master' into autohelp
+2ee83d3 Merge branch 'Seanstoppable-cleanupdrawing'
+ec4b34c Merge branch 'master' into cleanupdrawing
+5f054c8 Allow PagerDuty to restrict on scheduleID
+f6ed8b6 Update CHANGELOG.md
+ea3368a Merge pull request #446 from retgits/master
+46c3110 Make widget name part of the output
+9b8ce06 Split out char/key mapping help
+cd35d1e Re-add command line help
+98d370e Merge branch 'master' into master
+18e5619 feat: update sample configs
+7f3daaa Have keyboard widget manage its own help
+42821b3 Clean up drawing functionality
+e9e62c2 Merge branch 'master' of github.com:wtfutil/wtf
+42461c6 Update CHANGELOG.md
+bebc836 Merge pull request #441 from Seanstoppable/splituplogger
+03b1abd Remove datadog app reference
+db74680 Improve the display of Twitter; less-harsh colours
+8c4346f Merge branch 'master' into splituplogger
+197b3a5 Update CHANGELOG.md
+2067a73 Fix a bug in scrollable.RowColor
+78fc097 Update widget.go
+18ed770 Merge branch 'master' into abstractscrollable
+04fae35 Update CHANGELOG.md
+a3717a5 Merge pull request #438 from Seanstoppable/zendeskhelp
+521687e Merge branch 'master' into zendeskhelp
+d167041 Update CHANGELOG.md
+7be64c0 Update CHANGELOG.md
+de2db52 Merge pull request #440 from Seanstoppable/stablesort
+eafeb3c Merge branch 'master' into stablesort
+c328ba4 Split up logger and widget
+0d26676 Add stable sort for focusable windows
+210723c Create abtract scrollable widget
+6765404 Add help text to zendesk widget
+bc0813b Add Windows build support in goreleaser config
+0b59a3b Fix slow render of new item modal in Todo
+0754023 Fix missing title in Clocks
+68ed842 Fix double-render of title in Weather
+018d2af Add a global Redraw method for TextWidget
+aedcf9d Update CHANGELOG.md
+9095fe8 Merge pull request #436 from Seanstoppable/datadogscroll
+8c4bf5a Make datadog widget scrollable/interactive
+4e8c85b Fix line highlighting in HackerNews and Todo modules
+ea302d8 feat: update config
+
+
+Version v0.9.2:
+-------------------------------------------
+
+75f3e8f Merge pull request #433 from Seanstoppable/highlightline
+a5f98c1 Move closing region tag to the end of the line
+e6a55d5 Add @gnanderson as a contributor
+9cf44d6 Merge pull request #432 from gnanderson/master
+a53593f fix(gcal): remove possible extraneous variation codepoint
+d774157 Remove the unnecessary mutex from gcal
+ac87145 Update CHANGELOG.md
+5b05ca6 Merge pull request #428 from wtfutil/WTF-427-keyboard-widget
+2d0706c WTF-427 Use new keyboard implementation for widgets. Closes #427
+a9c5dc3 WTF-427 Add KeyboardWidget and switch Todo widget to using it
+b22a9ea Merge branch 'master' of github.com:wtfutil/wtf
+4c923d2 Update CHANGELOG.md

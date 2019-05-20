@@ -13,7 +13,7 @@ rm -rf ${PACKAGE}-${VERSION}
 if [ -e "${PACKAGE}_${VERSION}.orig.tar.gz" ]; then
     echo "${PACKAGE}_${VERSION}.orig.tar.gz exists, skipping.."
 else
-    wget https://github.com/${GH_USER}/${PACKAGE}/archive/v${VERSION}.tar.gz
+    wget -nv https://github.com/${GH_USER}/${PACKAGE}/archive/v${VERSION}.tar.gz
     mv -f v${VERSION}.tar.gz ${PACKAGE}_${VERSION}.orig.tar.gz
 fi
 

@@ -1,8 +1,7 @@
 Source: wtf
 Section: util
 Priority: optional
-Maintainer: Gerrit Pape <pape@smarden.org>
-Uploaders: Jonathan Nieder <jrnieder@gmail.com>, Anders Kaseorg <andersk@mit.edu>
+Maintainer: Jamie Curnow <jc@jc21.com>
 Build-Depends: golang
 Standards-Version: 4.3.0.1
 Homepage: https://wtfutil.com

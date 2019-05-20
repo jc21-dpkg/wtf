@@ -2,7 +2,6 @@ Source: wtf
 Section: util
 Priority: optional
 Maintainer: Jamie Curnow <jc@jc21.com>
-Build-Depends: golang
 Standards-Version: 4.3.0.1
 Homepage: https://wtfutil.com
 Vcs-Git: https://github.com/wtfutil/wtf.git

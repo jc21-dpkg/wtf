@@ -1,3 +1,91 @@
+Version v0.11.0; changes since v0.10.0:
+---------------------------------------
+
+98f0d5f Update CHANGELOG.md
+0bf595d Add @Sean-Der as a contributor
+a98aa85 Merge pull request #473 from Sean-Der/master
+93d91c9 Add new key 'customQueries' to github module
+cb9eed2 Merge branch 'master' of github.com:wtfutil/wtf
+1513b80 Add @Choromanski as a contributor
+6f9b837 Update README.md
+bc8b82e Update README.md
+0f369cb Update README.md
+b47d394 Update README.md
+3ca8ca9 Update CONTRIBUTING.md
+8e7799b Update CONTRIBUTING.md
+485c6a8 Update README.md
+77cbdc9 Update CHANGELOG.md
+276e94a Merge pull request #468 from wtfutil/WTF-467-broken-help-display
+042f602 Tabbing to widgets properly sets the IsFocused property. Closes #467
+7a93824 Merge pull request #464 from Seanstoppable/configdocs
+90362de Merge branch 'master' into configdocs
+745ecbf Merge pull request #466 from Seanstoppable/moreappcleanup
+55bc078 Merge branch 'master' into moreappcleanup
+3b1add3 Merge pull request #465 from Seanstoppable/highlighthelper
+02e0666 Remove more app usages which are unnecessary
+c4d58ec Add a helper function to do highlighting in a uniform way
+d2385b9 Merge branch 'master' into configdocs
+a06cbcb Merge branch 'master' of github.com:wtfutil/wtf
+725b0ee Merge pull request #463 from Seanstoppable/weathermultisource
+5b183af Merge branch 'master' into weathermultisource
+cfd5dfe Merge pull request #462 from Seanstoppable/gitlabmultisource
+ba9ed05 Merge branch 'master' into gitlabmultisource
+f183a85 Improve keyboard handling in main.go
+ce72341 Merge branch 'master' of github.com:wtfutil/wtf
+b9fc08e Todoist only refreshes if it is not disabled and there is a current project
+dd4d85e Update CHANGELOG.md
+09ea4cd Todoist now properly updates list items when Refresh() is called
+d8f3378 Add more 'man page' like functionality
+a283dd8 Migrate gitlab to multisource widget
+aeb76e9 Flip weather over to a multi-source widget
+9a877b5 Improve the look of the help modal a little bit
+5db30c0 Add help screen to main app
+ed4fbf0 Merge branch 'Seanstoppable-todoistsimplify'
+d8bb0de Remove unused import
+2fb1a06 Add Scrollable to todoist widget
+44a2634 Update .all-contributors
+a86bd4c Merge branch 'master' of github.com:wtfutil/wtf
+523b75e Add @sosiska as a contributor
+0c0c6e9 Merge pull request #460 from sosiska/patch-1
+f0771cd Some code improvements
+c050292 Merge pull request #459 from Seanstoppable/keyboardharmonize
+a2f5db7 Harmonize keyboard controls
+eb3183 Add @bosr as a contributor
+f8dae61 Merge branch 'master' of github.com:wtfutil/wtf
+b6d09d6 Update CHANGELOG.md
+9a167ba Merge pull request #458 from bosr/fix/glog
+5bd6b26 Merge branch 'bosr-fix/glog'
+7d080bb remove glog mod dep
+bc31e25 Merge pull request #457 from Seanstoppable/multisourcefuncrename
+34bf319 Rename Prev/Next in MultiSourceWidget
+bca6772 Update CHANGELOG.md
+18cc6c3 WTF-455 Pass nil options for Gitlab project. Closes #455
+387cf3d Update CHANGELOG.md
+29f3d90 Update CHANGELOG.md
+accfa70 Don't panic when there's no city data for Weather
+405beea Update CHANGELOG.md
+3cc19dc Improve the look of Trello widget a bit
+b2cef43 Merge pull request #456 from wtfutil/WTF-454-trello-multiple
+6879695 WTF-454 Fixes multi-list issue with Trello. Closes #454
+7c1152a Merge pull request #450 from Seanstoppable/githubmultisource
+2f7a294 Merge remote-tracking branch 'origin/master' into githubmultisource
+cb64f7d Handle historical config
+313ad4c Remove 'system' widget from the widget initialization
+85014a4 Merge branch 'master' into githubmultisource
+4863901 Improve the comments in utils.go
+0a2addb Add some comments to the functions in utils.go
+f62f9a0 Merge branch 'Seanstoppable-todoistmulti'
+f7b69fa Extend ToStrs() to support ints or strings
+5620db2 Merge branch 'master' into todoistmulti
+6bdb0ce Merge branch 'master' of github.com:wtfutil/wtf
+a9eec59 Merge branch 'Seanstoppable-githubcleanup'
+37d61fb Merge branch 'Seanstoppable-githubcleanup'
+6a44ba8 Merge branch 'master' into githubcleanup
+1aee849 Update CHANGELOG.md
+6a41935 Flip todoist over to multiview widget
+d410f54 Cleanup git widget
+c35034d Make github a multisource widget
+
 Version v0.10.0; changes since v0.9.2:
 ---------------------------------------
 

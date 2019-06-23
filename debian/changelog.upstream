@@ -1,3 +1,17 @@
+Version v0.12.0; changes since v0.11.0:
+---------------------------------------
+
+70f9422 Deafult the HIBP ok colour to white
+6ba5611 Update CHANGELOG.md
+f209925 Update CHANGELOG.md
+182b499 Merge pull request #475 from wtfutil/20190620-hibp-module
+c75f00c Enforce a minimum refresh interval for the HIBP module
+8ce2242 Display the since date in the HIBP widget title
+6216076 Add a working Have I Been Pwned module
+1fa2176 Update CHANGELOG.md
+97307b2 Update CHANGELOG.md
+d9c362e Make the line wrap settings for the Textfile module configurable via the 'wrapText' setting
+
 Version v0.11.0; changes since v0.10.0:
 ---------------------------------------
 

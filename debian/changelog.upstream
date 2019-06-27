@@ -1,3 +1,21 @@
+Version v0.13.0; changes since v0.12.0:
+---------------------------------------
+
+eb11ec3 Simplify the Transmission display when there are no torrents
+8bc2103 Update CHANGELOG.md
+fb3ea54 Update CHANGELOG.md
+4f0b0fe Add Transmission seed ratio to display
+c4bdf74 Update README.md
+bf84bfe Add percentage sign to Transmission download indicator
+32bb91a Merge pull request #477 from wtfutil/20190622-transmission-module
+3a65dad Add pause/unpause and delete functionality to Transmisson widget
+5dbce09 Make Transmission widget scrollable
+9244d60 Add a rudimentary Transmission module (https://transmissionbt.com)
+ae13a33 WIP Transmission
+a4a3d4e Improved the README
+56f9435 Add Patreon to funding
+d8e30af Add funding.yml
+
 Version v0.12.0; changes since v0.11.0:
 ---------------------------------------
 

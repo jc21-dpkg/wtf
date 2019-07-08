@@ -7,33 +7,32 @@ pipeline {
     label 'rpm'
   }
   environment {
-    DOCKER_BUILD = "jc21/dpkg-debian:9-golang"
+    PACKAGE = "wtf"
   }
   stages {
     stage('Prepare') {
       steps {
-        sh 'docker pull ${DOCKER_BUILD}'
-        sh 'docker pull ${DOCKER_CI_TOOLS}'
-        sh 'rm -rf sign'
-        sh 'mkdir -p sign'
+        ansiColor('xterm') {
+          sh 'rm -rf sign'
+          sh 'mkdir -p sign'
 
-        dir(path: 'sign') {
-          git(url: "${RPM_SIGN_GIT_REPO}", credentialsId: "${RPM_SIGN_CREDENTIALS_ID}")
-          sh 'chmod 600 .gnupg/*'
+          dir(path: 'sign') {
+            git(url: "${RPM_SIGN_GIT_REPO}", credentialsId: "${RPM_SIGN_CREDENTIALS_ID}")
+            sh 'chmod 600 .gnupg/*'
+          }
         }
-
-        // Change ownership of the directory we're going to mess with
-        sh 'docker run --rm -v $(pwd):/home/builder/package ${DOCKER_BUILD} sudo chown -R builder:builder /home/builder/package'
       }
     }
     stage('Build') {
       steps {
-        sh 'docker run --rm --name dpkgbuild-${BUILD_TAG} -e GOPROXY=${GOPROXY} -v $(pwd):/home/builder/package -v $(pwd)/sign/.gnupg:/home/builder/.gnupg -w /home/builder/package ${DOCKER_BUILD} bash -c "sudo chown -R builder:builder /home/builder/.gnupg && /home/builder/package/build.sh"'
+        ansiColor('xterm') {
+          sh './build debian 9-golang'
+        }
       }
     }
     stage('Publish') {
       steps {
-        archiveArtifacts(artifacts: 'wtf*.*', caseSensitive: true, onlyIfSuccessful: true)
+        archiveArtifacts(artifacts: "${PACKAGE}*.*", caseSensitive: true, onlyIfSuccessful: true)
       }
     }
   }

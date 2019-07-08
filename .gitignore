@@ -7,4 +7,5 @@ DEPS
 BUILD
 BUILDROOT
 *.swp
+sign
 wtf*

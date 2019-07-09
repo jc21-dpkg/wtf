@@ -1,13 +1,52 @@
 Version v0.14.0; changes since v0.13.0:
 ---------------------------------------
 
-Added
-- CmdRunner module now supports custom titles, by @Seanstoppable
-- FeedReader module added (https://wtfutil.com/modules/feedreader/), a rudimentary Rss & Atom feed reader
-Fixed
-- Cryptolive module works again, #481 by @Seanstoppable
-- gCal module now supports setting an explicit time zone via the "timezone" config attribute, #382 by @jeangovil
-- Misconfigured module positions in config.yaml now attempt to provide informative error messages on launch, #482
+b07f3c5 Reimpliments the module configuration validation
+c308d1b Add help tag to Title in common_settings
+2da3344 Get --module=[modname] working again (broke when position config validation was added)
+2b2cdf9 Fix optional help text in NewRelic settings
+15a88c2 Merge pull request #491 from Seanstoppable/evenmoremoresettings
+eff0d55 Fix spelling mistake in DefaultFocussedRowColor() name
+66c8cba Update CHANGELOG.md
+c9bfbb0 Update CHANGELOG.md
+85217be Merge pull request #489 from wtfutil/482-missing-position-data-crash
+0104f97 Use a map to return the failed position value and error message
+774c465 WTF-482 More explicit param name in position.go
+5a39bc0 WTF-482 Remove commented-out code
+ca81aa5 WTF-482 Fix redundant newline warning
+08c7e76 WTF-482 Sanity-check position configuration data for modules
+d76f680 Redraw when a Transmission torrent is removed
+1626d17 Update CHANGELOG.md
+2a944b3 Use 'timezone' instead of 'timeZone' for the gCal setting name. More colloquial
+a6a75ee Update CHANGELOG.md
+2831152 Merge pull request #490 from jeangovil/i382-gcal-add-time-zone
+f4f2901 Add help strings from h-r
+6ec608f remove default time zone
+404453c added time zone configuration support to gcal module.
+1f82d26 Fix a Transmission bug in which seed ratios could be negative percentages
+b5fd3de Merge pull request #488 from Seanstoppable/moresettings
+5864422 Update CHANGELOG.md
+8b739fa Merge pull request #487 from Seanstoppable/fixcryptolive
+5f57edb Even more help settings
+ad3796f Fix cryptolive widget
+c82b6d8 Add 'clear sky' and 'clear' icons to weather module
+743aa09 Add help text to the Transmission settings file
+007c177 Add help text to the Transmission settings file
+3ee4980 Update CHANGELOG.md
+71a5ad3 Merge pull request #486 from wtfutil/WTF-42-rss-reader
+34b7ef1 WTF-42 Add help tags to FeedReader settings
+f19f1ee WTF-42 WIP Add FeedReader, an RSS/Atom feed reader
+b85b3f7 Merge pull request #485 from Seanstoppable/moreman
+c1eb75d Add more settings helpers to widgets
+7413ffa Update CHANGELOG.md
+778f3e2 Merge pull request #483 from Seanstoppable/cmdrunnertitle
+cff4c06 Allow people to substitute a title for cmdrunner
+9d38f54 Improve the error messaging around a mis-configured configuration file
+c6ab669 Improve the documentation in /flags
+9a9f380 Merge pull request #480 from wtfutil/20190628-updated-dependencies
+cc2ff45 Run 'go mod tidy' to clean up stray deps
+e846fde Update go-github dependencies
+f86f099 Update CHANGELOG.md
 
 Version v0.13.0; changes since v0.12.0:
 ---------------------------------------

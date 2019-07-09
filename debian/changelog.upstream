@@ -1,3 +1,14 @@
+Version v0.14.0; changes since v0.13.0:
+---------------------------------------
+
+Added
+- CmdRunner module now supports custom titles, by @Seanstoppable
+- FeedReader module added (https://wtfutil.com/modules/feedreader/), a rudimentary Rss & Atom feed reader
+Fixed
+- Cryptolive module works again, #481 by @Seanstoppable
+- gCal module now supports setting an explicit time zone via the "timezone" config attribute, #382 by @jeangovil
+- Misconfigured module positions in config.yaml now attempt to provide informative error messages on launch, #482
+
 Version v0.13.0; changes since v0.12.0:
 ---------------------------------------
 

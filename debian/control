@@ -1,4 +1,4 @@
-Source: wtf
+Source: wtfutil
 Section: util
 Priority: optional
 Maintainer: Jamie Curnow <jc@jc21.com>
@@ -8,7 +8,7 @@ Homepage: https://wtfutil.com
 Vcs-Git: https://github.com/wtfutil/wtf.git
 Vcs-Browser: https://github.com/wtfutil/wtf
 
-Package: wtf
+Package: wtfutil
 Architecture: any
 Multi-Arch: foreign
 Depends: ${misc:Depends}

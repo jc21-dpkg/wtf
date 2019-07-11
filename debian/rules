@@ -17,7 +17,7 @@
 %:
 	dh $@
 
-BINARY_NAME=wtf
+BINARY_NAME=wtfutil
 GOCMD=go
 GOBUILD=$(GOCMD) build
 

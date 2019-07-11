@@ -1,3 +1,16 @@
+Version v0.15.0; changes since v0.15.0:
+---------------------------------------
+
+76545d1 Update binary name in goreleaser.yml
+379d035 Update the README with the note about wtf -> wtfutil
+f7fc82d Add wtfutil binary comments to Makefile
+f143efe Merge branch '20190709-rename-binary-to-wtfutil'
+5f61a90 Fix bug with FeedReader's sort order
+5bbddcf Fix off-by-one error when deleting Transmission torrents
+2e7f242 HIBP module now wraps error text if an error occurrs
+b4e3b7e Changes the name of the installed binary from 'wtf' to 'wtfutil'
+135518a Update CHANGELOG.md
+
 Version v0.14.0; changes since v0.13.0:
 ---------------------------------------
 

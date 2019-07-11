@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -ex
 
 ##################################################
 #
@@ -80,6 +80,7 @@ fi
 # Extract
 echo -e "${BLUE}❯ ${YELLOW}Extracting${RESET}"
 tar xzf "${PACKAGE}_${VERSION}.orig.tar.gz"
+mv "wtf-${VERSION}" "${PACKAGE}-${VERSION}"
 
 # Copy over debian package info
 echo -e "${BLUE}❯ ${YELLOW}Setting up ./debian folder${RESET}"

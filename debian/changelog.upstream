@@ -1,4 +1,14 @@
-Version v0.15.0; changes since v0.15.0:
+Version v0.16.0; changes since v0.15.0:
+---------------------------------------
+
+4b26402 Add homebrew config for goreleaser
+c2e2400 Add support for a new 'border' property on widgets
+60895c8 Upgrade tview dependency
+372ec72 Update CHANGELOG.md
+d520ef6 Update CHANGELOG.md
+3681cba Update README.md
+
+Version v0.15.0; changes since v0.14.0:
 ---------------------------------------
 
 76545d1 Update binary name in goreleaser.yml

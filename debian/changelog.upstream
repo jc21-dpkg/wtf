@@ -1,3 +1,14 @@
+Version v0.16.1; changes since v0.16.0:
+---------------------------------------
+
+769e8b3 Merge branch 'master' of github.com:wtfutil/wtf
+895320d Update goreleaser.yml to name the Homebrew recipe 'wtfutil'
+9015134 Update README.md
+470f726 Update README.md
+4e658dd Update README.md
+9b086f4 Update README.md
+6eb57a9 Update README.md
+
 Version v0.16.0; changes since v0.15.0:
 ---------------------------------------
 

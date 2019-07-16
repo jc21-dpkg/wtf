@@ -1,3 +1,16 @@
+Version v0.17.0; changes since v0.16.1:
+---------------------------------------
+
+2b19cce Vendoring dependencies
+122ea31 Update CHANGELOG.md
+d1a7d5d Update CHANGELOG.md
+375c296 Fix a date-sorting bug in FeedReader
+540535b Regenerate all-contributors
+4fc8185 Add @gary-kim as a contributor
+561f4d1 Merge pull request #500 from gary-kim/fix/498/readme-gccgo
+26d6952 Update README.md to reflect gccgo-9 compatability
+92e16b7 Update README.md
+
 Version v0.16.1; changes since v0.16.0:
 ---------------------------------------
 

@@ -1,3 +1,33 @@
+Version v0.18.0; changes since v0.17.0:
+---------------------------------------
+
+ab94bd3 Update CHANGELOG.md
+d94e28f Update CHANGELOG.md
+b6dc9e8 Merge pull request #511 from wtfutil/WTF-510-no-config-dir
+452e6f2 WTF-510 Add error messaging if the config directories cannot be created
+00ccf8a WTF-510 Create the ~/.config directory if it is missing
+83018d2 Update CHANGELOG.md
+1f9c100 Update CHANGELOG.md
+cadf7e7 Update CHANGELOG.md
+1324e8f Add @DylanBartels as a contributor
+e9bd5e2 Delete the vendored golang.org packages
+b62969e Merge pull request #506 from DylanBartels/add-google_analytics
+1e90f33 Delete FUNDING.yml
+f14158a Update Support.md
+f1d240d Update Feature.md
+d2d1be7 Update Support.md
+292122b Update Bug.md
+30f9311 Update Feature.md
+9a9c5ed Update Feature.md
+db68c9c Update Bug.md
+ae61d2f Add google analytics module
+4f8a4c9 Add google analytics
+e593a0d Better naming for some of the core interfaces
+7ddf4a5 WIP
+0801f9b Delete Position test. Position struct no longer exists
+29da0bf Update CHANGELOG.md
+6319f8d Update CHANGELOG.md
+
 Version v0.17.0; changes since v0.16.1:
 ---------------------------------------
 

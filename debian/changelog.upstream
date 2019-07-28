@@ -1,3 +1,32 @@
+Version v0.19.0; changes since v0.18.0:
+---------------------------------------
+
+31fb020 Add @chenrui333 as a contributor
+2ef3c24 Update CHANGELOG.md
+d46108a Merge pull request #518 from wtfutil/20190725-chmod-0600-config-file
+50cc966 Explicitly set the default config file's mode to 0600
+c0ff284 Add @l13t as a contributor
+c0bc684 Update CHANGELOG.md
+0f5b9d1 Update CHANGELOG.md
+b75beba Merge pull request #516 from l13t/master
+4b629db Rewrote way how to define region
+e4895d7 Update CHANGELOG.md
+704ca22 Merge pull request #515 from wtfutil/WTF-504-better-default-config
+7422cc3 Added to opsgenie module region selection
+0bc6965 WTF-504 Improve the default config
+7a70ed7 Move settings of TERM out of main()
+7a7df7d Clean up the /cfg files a bit; simplify config handling in main.go
+a2e705a Update CHANGELOG.md
+30530a8 Merge pull request #514 from wtfutil/WTF-508-hibp-api-subscription
+edcb6d0 WTF-508 HIBP now uses API v3 with authorization to fetch data
+4160d4e Update CHANGELOG.md
+582e29a Merge pull request #513 from Seanstoppable/fixrollbar
+d59dc6e Fix rollbar rendering
+e48452d Delete unused import
+d405308 Merge pull request #512 from wtfutil/20190720-custom-config-error
+ce1f2b3 Update CHANGELOG.md
+5e18538 Display a useful error message for custom configuration files
+
 Version v0.18.0; changes since v0.17.0:
 ---------------------------------------
 

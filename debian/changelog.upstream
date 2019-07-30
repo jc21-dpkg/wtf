@@ -1,3 +1,31 @@
+Version v0.19.1; changes since v0.19.0:
+---------------------------------------
+
+45da40e Update CHANGELOG.md
+3a02a2a Merge pull request #521 from wtfutil/20190729-goreleaser
+57f1bac Add arm* architecture to goreleaser config
+3e8bbd0 Merge pull request #519 from wtfutil/20190726-app-instance
+82c8966 Move the ModuleValidator from /wtf to /app
+b790b27 Move the FocusTracker from /wtf to /app
+8436b74 Make all exported fields unexported in WtfApp
+4c0f765 Improve error messages
+73391b0 Add ability to explicitly stop modules via a QuitChan
+cfd3c73 Move the scheduler up into /app
+a6d18e2 Extract most app setup out of main and into wtf_app
+324666a Clean up the MakeWidgets process by miniming the number of params passed around
+6de0449 Update CHANGELOG.md
+fccd062 Move the ModuleValidator from /wtf to /app
+1b1ce69 Move the FocusTracker from /wtf to /app
+bba5436 Make all exported fields unexported in WtfApp
+ac31ea2 Improve error messages
+991119e Add ability to explicitly stop modules via a QuitChan
+24cf82c Move the scheduler up into /app
+f4886fd Extract most app setup out of main and into wtf_app
+923d70e Clean up the MakeWidgets process by miniming the number of params passed around
+6c2c52a Fix Dockerfile
+16c1b2a Add Dockerfile
+3291ce0 Update github files
+
 Version v0.19.0; changes since v0.18.0:
 ---------------------------------------
 

@@ -1,3 +1,57 @@
+Version v0.20.0; changes since v0.19.1:
+---------------------------------------
+
+8a274f8 Update CHANGELOG.md
+e68dbe4 Remove Gitter.im from the readme
+3a5759e Remove the version warning from the build and install make commands
+f21e9cc Update README.md
+1efb977 Update README.md
+28f9b55 Move jenkins filter to the data retrieval portion (#533)
+2efa6ee Merge pull request #530 from Seanstoppable/fixhelp
+f28605c Fix help for modules
+9b6947d Add @rwhogg as a contributor
+34ac1a7 Add @sudermanjr as a contributor
+33207b1 Update CHANGELOG.md
+9229dd0 Merge pull request #526 from FairwindsOps/sudermanjr/kubernetes
+491e08f Updating help text on objects to include nodes
+3464abb Adding tests
+da0e1db Adding a Kubernetes module for displaying Kubernetes cluster resources and info
+0db7e7c Catch intermittent failure with HIBP module
+97ca61a Merge pull request #525 from wtfutil/20190805-utils-into-utils
+3e2d6eb Fix the naming and specs for some utility functions
+ecd95ba Move a bunch of code out of utils.go and into dedicated files
+4e46fff Move the utils.go file into the /utils directory
+0bd2d17 Merge pull request #524 from wtfutil/20190804-reorganization
+06a785d Rename
+d372e10 Rename addView() to createView()
+787d1a3 BarGraph supports customizable titles in config
+b6b6952 Extract common funcitons from BarGraph and TextWidget into Base
+275ea37 Extract common attributes from BarGraph and TextWidget into Base
+98eb3c9 Bring BarGraph constructor up to parity with TextWidget
+dbc0475 Move all components responsible for module composition into /view
+94d6330 Move Bargraph functionality into /view
+2ba50f2 Move WidgetMaker functionality into /app
+59429b0 Fix failing UnixTime tests
+e1ad1f3 Simplify ChecklistItem tests
+b0c175d Add more specs in the /wtf directory
+d3d6161 Merge branch 'master' of github.com:wtfutil/wtf
+59e4c5b Update CHANGELOG.md
+da660a7 Update CHANGELOG.md
+7b8b8ac Merge branch 'master' of github.com:wtfutil/wtf
+c55b542 Merge pull request #523 from Seanstoppable/fixkeyboardfallthrough
+10772c2 Fix keyboard fallthrough
+d6254eb Add specs for /wtf/datetime
+681dd85 Add specs for /wtf/colors
+a1aafbe Move /wtf tests into /wtf directory
+c176780 Fix a couple of 'go vet' issues
+33ec852 Merge pull request #522 from wtfutil/20190802-custom-config-handling
+b9d1017 Remove another panic call
+7b4c77b Simplify .travis.yml config
+7234f83 Remove stray Log() statements from SpotifyWeb
+a02e2a2 Remove a stray Log() statement from Gittet
+52023a4 Remove a stray Log() statement from MultiSourceWidget
+4c2b52c Improve the config file handling process
+
 Version v0.19.1; changes since v0.19.0:
 ---------------------------------------
 

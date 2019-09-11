@@ -1,3 +1,55 @@
+Version v0.21.0; changes since v0.20.0:
+---------------------------------------
+
+2612194 Update CHANGELOG.md
+68eb640 Merge pull request #571 from wtfutil/WTF-553-config-file-creation
+a8bde9e WTF-553 Fix config.yml creation issue on first run
+d08a5ba Update CHANGELOG.md
+265cacf Merge pull request #569 from Seanstoppable/transmissionport
+ed50751 Use port value for transmission client
+7b514fb Merge pull request #564 from
+wtfutil/20190829-case-insensitive-config-keys
+fce8b69 Support case-insensitive 'apiKey' config keys
+1793597 Update CHANGELOG.md
+1e3b54d Merge pull request #559 from hxw/master
+69d44d5 Merge pull request #563 from wtfutil/WTF-560-feedreader-wrap
+21c444c WTF-560 Set FeedReader line wrap to false
+51b4d42 add FreeBSD support to power module
+bc80b9f Merge branch 'renormalizedraw' of github.com:Seanstoppable/wtf into
+Seanstoppable-renormalizedraw
+d4a6e71 Add @brudil as a contributor
+fa77db5 Add @herbygillot as a contributor
+767e49f Merge pull request #555 from herbygillot/install-via-macports
+3407968 Add README instructions on installing via MacPorts
+4c5bda4 Add @hneiva as a contributor
+720a51f Merge pull request #548 from hneiva/patch-1
+3bd7041 Fix sample config
+c930aaf Update CHANGELOG.md
+f43285e Add @hxw as a contributor
+7e022fe Merge pull request #541 from hxw/master
+da2f21c Merge pull request #545 from wtfutil/WTF-539-vendored-deps-back-2
+8df08c4 WTF-539 Add missing vendored dependencies back
+e8bb407 use xdg-open as default open method for http/https
+14e7619 Renormalize the redraw function
+67658e1 Merge pull request #538 from Seanstoppable/fixhighlightrace
+3a716bc Convert the bulk of modules over to RedrawFunc
+51e4325 Handle all the widgets that use GetRect
+264f49f Fix race with HighlightableHelper
+3f5fe6f Update CHANGELOG.md
+250eff7 Merge pull request #537 from wtfutil/20190823-universal-info-modal
+523a0be Remove the need for every module to define a widget.Refresh keyboard
+control
+5337656 Remove the need for every module to define a widget.ShowHelp keyboard
+control
+5270501 Update CHANGELOG.md
+f05c36c Merge pull request #536 from Seanstoppable/linuxtransparency
+44b5e36 Update CHANGELOG.md
+c6caffc Merge branch 'Seanstoppable-fixfullycharged'
+81a7fc5 Fix fully charged indicator
+146cbb5 Attempt to offer linux transparency
+c832db9 Add utils.Includes() helper function
+faf365b Update CHANGELOG.md
+
 Version v0.20.0; changes since v0.19.1:
 ---------------------------------------
 

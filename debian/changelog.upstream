@@ -1,3 +1,139 @@
+Version v0.22.0; changes since v0.21.0:
+---------------------------------------
+
+bb59d52 Remove docker from the build pipeline
+5e1abc1 Update go.sum
+b1aba81 Add @noxer as a contributor
+842a24e Merge pull request #622 from noxer/patch-1
+c836181 Merge pull request #627 from wtfutil/20190910-catch-watcher-error
+18859ed Update CHANGELOG.md
+cfc7a8c Add @ibaum as a contributor
+35b7c97 Merge pull request #615 from ibaum/fix-kubernetes-client
+79bc78a Don't die if the watcher can't find the file. Continue trying
+33ea383 Merge branch 'fixjsonparse' of github.com:Seanstoppable/wtf into Seanstoppable-fixjsonparse
+26ca161 Fix config reload race
+bb3c24d Normalize coloring (#620)
+9b23da0 Merge pull request #625 from wtfutil/20190910-no-title
+e059eeb Add the ability to display no title
+04616dd Update CHANGELOG.md
+a620d4f Add @Narengowda as a contributor
+8ca807e Disable the GOSUMDB in the compilation instructions
+7756df1 Merge branch 'master' into add_digitalclock_module
+3ad04c4 Cleanup unwanted comments
+ba7645a Update CHANGELOG.md
+8ababed Update CHANGELOG.md
+89020c7 Merge pull request #617 from wtfutil/WTF-566-gitlab-projects-as-list
+348b2ff Adds support for digital clock
+6de3f0f modules/digitalclock/
+074bd6a Update README.md
+a646644 Update CHANGELOG.md
+4ff6453 Add @ChrisDBrown as a contributor
+7dd4e49 Merge branch 'feat/nr-multi' of github.com:Seanstoppable/wtf into Seanstoppable-feat/nr-multi
+36fbad5 Fix JSON parsing
+32884e5 Add default label color to docker module
+0cd9605 Update CHANGELOG.md
+78db4fe Add @v-braun as a contributor
+e441e7e Fix go.mod merge conflicts
+f83e57c WTF-566 Support GitLab projects as list
+6662c7f Update kubernetes client to connect to various kubernetes providers
+921d5d1 Merge pull request #613 from Midnight-Conqueror/fix-github-icon-size
+9f7ff56 reducing the size of the cross
+001fde1 Update README.md
+3fd1651 Update CHANGELOG.md
+ef20be2 Merge branch 'Midnight-Conqueror-fix-github-selection-lint'
+27ecabf Merge branch 'fix-github-selection-lint' of github.com:Midnight-Conqueror/wtf into Midnight-Conqueror-fix-github-selection-lint
+5a0b9df Update CHANGELOG.md
+7d99c12 Merge pull request #608 from Seanstoppable/fixgitordering
+7056a44 Update CHANGELOG.md
+7fed757 Merge pull request #612 from wtfutil/WTF-611-gcal-color-highlighting
+66ae65c Merge branch 'fixcolorconfig' of github.com:Seanstoppable/wtf into Seanstoppable-fixcolorconfig
+2c673ae WTF-611 Fix gCal color highlighting
+d4e0b09 add unicode for exclamation mark
+596bfba fix: fixing linting for the github module adding documentation to github module fixing malformed icon causing display errors
+e8881ef Merge pull request #606 from Seanstoppable/updategoreleaser
+886d9d9 Update CHANGELOG.md
+bbf5b12 Add @Midnight-Conqueror as a contributor
+993853a Merge branch 'Midnight-Conqueror-github-selection'
+faa2098 Merge branch 'github-selection' of github.com:Midnight-Conqueror/wtf into Midnight-Conqueror-github-selection
+37c6142 Update go.sum httpmock
+e213e6b Fix git ordering
+bc0d79d Update CHANGELOG.md
+aef3286 Merge pull request #605 from Seanstoppable/supporthexcolor
+a781c20 Merge pull request #603 from Seanstoppable/handlegithubclienterr
+3d25caa Update CHANGELOG.md
+237a05d Merge pull request #602 from Seanstoppable/hotfixtodoist
+1c1ce48 Updates to make this work after refactors
+3758ade feat(newrelic): Display deploy information from multiple apps
+5979564 Update test case for default color
+e8f38ff Support hex colors
+23bd900 Update goreleaser config
+0c8c198 Fix module color config
+12a006f Pass through github client errors to display
+b184c8a Hotfix todoist
+34d6d03 Update the oauth2 package
+bd2f73a unselecting correctly
+c21b7c3 appending to a slice and referencing items within that using the currently selected
+87f029a Merge pull request #599 from wtfutil/20190904-experimental-term-definitions
+85fc8f2 Include in extended tcell terminal descriptions
+3faefc1 Upgrade tview and tcell dependencies
+3a3394e Add @andor-pierdelacabeza as a contributor
+42843b1 Merge pull request #597 from andor-pierdelacabeza/patch-1
+e1e620a Update bin file name in flags
+8bd0bf7 implemented docker module
+b783e6b Update CHANGELOG.md
+e56731a Add @Ameobea as a contributor
+2bd7c43 Merge pull request #582 from Ameobea/google-analytics-realtime
+b4a65a3 Merge branch 'master' of github.com:wtfutil/wtf
+ecdeac7 Add @nyourchuck as a contributor
+b7639f5 Update CHANGELOG.md
+ac63b5b Merge pull request #580 from nyourchuck/nyourchuck-travisci-updates
+b471d58 Update CHANGELOG.md
+d0095f9 Merge pull request #591 from lesteenman/WTF-574-change-jira-status-layout
+0373308 Merge pull request #590 from Seanstoppable/errtidy
+8835f53 Refactor a number of widgets to display client errors
+ff77a3d Merge branch 'master' of github.com:wtfutil/wtf
+01d82e3 Add @lesteenman as a contributor
+42f6a4e Update CHANGELOG.md
+fcda904 Merge pull request #589 from lesteenman/WTF-575-url-decode-jenkins-job-names
+fd95a0f Update CHANGELOG.md
+0206fd6 Merge pull request #587 from Seanstoppable/capturetodoisterrors
+2d73995 Merge pull request #583 from Seanstoppable/kubeconfigerr
+2886e58 Update CHANGELOG.md
+46a4c82 Merge pull request #588 from Seanstoppable/fixscrollableandtodoist
+4716875 Update CHANGELOG.md
+2fce7a1 Add @mikkeljuhl as a contributor
+f1c2a42 Merge pull request #576 from mikkeljuhl/mjuhl/feature/addPermissionReadingToGCal
+1365b60 WTF-575: URL-Decode Jenkins branch names
+f2c1090 Fix delete/close of todoist
+0f9e072 Capture API exceptions from todoist API
+35797d2 WTF-574: Change display of Jira columns.
+cbae744 adding back padding
+b98ce54 scroll to top when unselecting
+74d2fbe using the correct order and maintaining scroll position when changing source
+5740b68 adding back mergedString
+925930f addressing performance
+10f0204 instead of resetting the selected each refresh now setting the max each refresh
+70c5e02 fixing an issue where after a refresh the maxItems would be greater than the actual amount
+d212037 cleaning up
+d030814 changing keybind
+ccaca4f using just the pr/issue number as highlighted
+55937c4 added highlighting and opening of pull requests
+c311523 Catch and throw error when trying to get kube config
+a56c1fa Improve real time data fetch error message
+d5e06fe Add support for pulling realtime Google Analytics metrics
+5545e4f Add more configuration options to travisci module
+869269c [Google Calendar]: Calendar Read Level
+c3a54de Update README.md
+68a7553 Update README.md
+02b0be0 Add @jeffz as a contributor
+52aba30 Update CHANGELOG.md
+9d4609e Merge pull request #570 from jeffz/arpansagovau
+db5d50c Set the text wrap of the clocks module to false
+e1da955 Update README.md
+68b64a3 Update CONTRIBUTING.md
+022de78 Update CHANGELOG.md
+4bc92bc add arpansagovau module for displaying UV data from Australian cities
+
 Version v0.21.0; changes since v0.20.0:
 ---------------------------------------
 

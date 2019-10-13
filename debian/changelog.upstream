@@ -1,3 +1,163 @@
+Version v0.23.0; changes since v0.22.0:
+---------------------------------------
+
+e98b15c Merge pull request #690 from wtfutil/20191011-transmission-race-conditions
+189c667 Fix some of the transmission module race conditions
+6266ed8 Remove dead comment
+c6c56a1 Add @jdenoy-saagie as a contributor
+1b60875 Add @stevenwhitehead as a contributor
+4b8ae6c Update @alexfornuto as a contributor
+c9eff66 Merge pull request #584 from alexfornuto/netman-agnostic
+b99a451 Merge pull request #687 from wtfutil/20191010-fix-go-mod
+9e1b660 An attempt to fix Dependabot's parsing issue
+2afbf68 Update CHANGELOG.md
+5937dcc Add @Boot-Error as a contributor
+3e84dc2 Merge pull request #685 from Boot-Error/master
+d87a597 Merge pull request #686 from jmks/buildkite-follow-apikey-conventions
+b352cc3 Update README.md
+c13c21b Update README.md
+016bef7 Rename token to apiKey
+260ad3e Merge branch 'master' into master
+a1526b9 Fix Errors in azuredevops and devto modules
+cf3cda3 simplify iwgetid use
+02a3991 Add @massa1240 as a contributor
+cd89373 Update todoist dependency
+1fa73fc Update CHANGELOG.md
+fc95a6c Update CHANGELOG.md
+895b33c Merge pull request #683 from noxer/master
+4e529b4 Expose the widget dimensions to commands in cmdrunner
+4ef6eb7 Added utils.CalculateDimensions
+6b2a53e Clean up go.mod
+a340aa6 Update CHANGELOG.md
+abfdad0 Merge pull request #680 from noxer/master
+f91e2c3 Merge pull request #679 from jmks/buildkite-stable-pipelines-ordering
+0629e28 Set a proper default line limit
+45b9555 CmdRunner now updates view while running
+61bfd97 Sort Buildkite pipelines and branches alphabetically
+c5b36d8 Merge branch 'master' of github.com:wtfutil/wtf
+0bc29fe Add @jmks as a contributor
+9a21a2c Update CHANGELOG.md
+0306ecd Merge branch 'add-buildkite-widget' of github.com:jmks/wtf into jmks-add-buildkite-widget
+aca0ff6 Update README.md
+a2fc558 Merge pull request #678 from wtfutil/20191004-hacktoberfest
+99e3f10 Hacktoberfest message in readme
+35742da Update README.md
+0be50f3 Add @Tardog as a contributor
+0a019f6 Update CHANGELOG.md
+07ed1ea Merge pull request #677 from Tardog/spotify-theming
+00ce724 Update CHANGELOG.md
+90575dd Merge pull request #676 from wtfutil/dependabot/go_modules/gopkg.in/yaml.v2-2.2.4
+1a13bc2 Provide Spotify color customization settings
+c6d929c Bump gopkg.in/yaml.v2 from 2.2.3 to 2.2.4
+658718d Update README.md
+6015698 Update README.md
+f56cc48 Add Buildkite widget
+e16e63f Update CHANGELOG.md
+15d2e2e Merge branch 'master' into dependabot/go_modules/github.com/shirou/gopsutil-2.19.9+incompatible
+df035ee Update CHANGELOG.md
+7f5d09c Merge pull request #674 from Seanstoppable/checkboxoverride
+cee6bd9 Update CHANGELOG.md
+47651fb Merge branch 'respectordering' of github.com:Seanstoppable/wtf into Seanstoppable-respectordering
+5af3ad4 Merge branch 'master' of github.com:wtfutil/wtf
+3c01065 Add @aviaviavi as a contributor
+54bffb6 Update CHANGELOG.md
+4837413 Merge pull request #667 from scarf-sh/master
+8434b4c Update CHANGELOG.md
+acf6785 Merge pull request #671 from wtfutil/WTF-661-tranismission-blocker
+110afda Update CHANGELOG.md
+7823d1d Merge pull request #669 from wtfutil/WTF-658-clocks-row-color
+410dca7 Update CHANGELOG.md
+336e119 Merge pull request #668 from wtfutil/WTF-665-gcal-time-support
+2c1e7fc Have checkbox config work as intended
+b7bd6e3 Respect list ordering for trello
+617a702 Bump github.com/shirou/gopsutil
+4aa0f4e WTF-661 Fix tranmission module to no longer block on initialization
+ef71ad2 WTF-658 Clocks obeys global row color settings
+ca0345a Fix a bug with subreddit module row colour
+8290988 Merge pull request #670 from wtfutil/WTF-573-fullscreen-layout
+596825e Merge pull request #666 from wtfutil/dependabot/go_modules/gopkg.in/yaml.v2-2.2.3
+aeba4fa Merge pull request #662 from wtfutil/dependabot/go_modules/github.com/gdamore/tcell-1.3.0
+bacb661 WTF-573 Add padding value to default row and col setting
+7c2d6b4 WTF-665 Add time format setting for gCal module
+fae38e8 Scarf install instructions
+7119089 Bump gopkg.in/yaml.v2 from 2.2.2 to 2.2.3
+c08c937 Bump github.com/gdamore/tcell from 1.2.0 to 1.3.0
+301edda Merge branch 'master' of github.com:wtfutil/wtf
+b29e060 Add @lawrencecraft as a contributor
+e289c31 Update CHANGELOG.md
+36607f4 Merge branch 'master' of github.com:lawrencecraft/wtf into lawrencecraft-master
+f934f21 Attempt to fix the HIBP index out of range bug
+7b9dbdc Tidy up go.mod
+92139d1 Revert the tcell upgrade
+11a8f39 Minor cleanup in HIBP module
+02bdb40 Bit more on the subreddit module - fixing comments and adding options for top sort
+b0d6790 Adding subreddit module
+555a1c6 Update CHANGELOG.md
+f5e8011 Update CHANGELOG.md
+c366fbb Merge pull request #647 from wtfutil/dependabot/go_modules/github.com/adlio/trello-1.4.0
+8d84f9b Bump github.com/adlio/trello from 1.0.0 to 1.4.0
+3b30fd6 Tidy up go.mod
+6a37083 Update CHANGELOG.md
+771026c Merge branch 'dependabot/go_modules/github.com/xanzy/go-gitlab-0.20.1'
+be6eb01 Merge branch 'dependabot/go_modules/github.com/zorkian/go-datadog-api-2.24.0+incompatible'
+7ef9fa0 Bump github.com/xanzy/go-gitlab from 0.18.0 to 0.20.1
+71db72d Merge branch 'master' into dependabot/go_modules/google.golang.org/api-0.10.0
+35ee67f Merge branch 'dependabot/go_modules/github.com/alecthomas/chroma-0.6.7'
+90dd200 Merge branch 'master' into dependabot/go_modules/github.com/alecthomas/chroma-0.6.7
+e720bc7 Merge branch 'master' into dependabot/go_modules/github.com/gdamore/tcell-1.3.0
+1b8ba1a Merge branch 'dependabot/go_modules/github.com/radovskyb/watcher-1.0.7'
+f1533ad Merge branch 'master' into dependabot/go_modules/github.com/radovskyb/watcher-1.0.7
+9613263 Merge branch 'master' into dependabot/go_modules/github.com/google/go-github/v26-26.1.3
+42137fe Update CHANGELOG.md
+d913936 Add @scw007 as a contributor
+c8f2941 Bump github.com/alecthomas/chroma from 0.6.3 to 0.6.7
+f4ab8cd Bump google.golang.org/api from 0.9.0 to 0.10.0
+9de7383 support enterprise Travis endpoints
+9b89215 Bump github.com/gdamore/tcell from 1.2.0 to 1.3.0
+c25a3a7 Bump github.com/radovskyb/watcher from 1.0.6 to 1.0.7
+b914e38 Bump github.com/google/go-github/v26 from 26.0.9 to 26.1.3
+08a8191 Bump github.com/zorkian/go-datadog-api
+00f56a5 Merge pull request #639 from wtfutil/20190831-focusable-override
+bf877f5 Constantize the defaultFocus value for each module
+d6208b4 Add a focusable over-ride setting for widgets that are non-focusable by default
+248fddf Merge branch 'master' of github.com:wtfutil/wtf
+98afcb7 Add @VictorAvelar as a contributor
+85e31e1 Update CHANGELOG.md
+e13e82a Merge branch 'add-devto-modules' of github.com:VictorAvelar/wtf into VictorAvelar-add-devto-modules
+bb10669 Add env var defaults to AzureDevops module
+2f9025a Update CHANGELOG.md
+93ef3ea Update dependencies
+1bfd26a Merge branch 'feature/azure-dev-ops-module' of github.com:v-braun/wtf into v-braun-feature/azure-dev-ops-module
+425a085 Implementation of WTF devto module
+330035b Update go.mod to point to vendored newrelic module
+a13a284 Remove stale glog dependency. Fixes #642
+64985c3 implemented azure devops widget
+f61f668 Update CHANGELOG.md
+6fea40d Merge branch 'feature/gcal-event-time-color' of github.com:indradhanush/wtf into indradhanush-feature/gcal-event-time-color
+9e2bc00 modules/gcal: Use colors.eventTime for timestamp of event
+1ce29f4 modules/gcal: Add property colors.eventTime
+37ef3e0 Update README.md
+86bb78d Update README.md
+d76db44 Merge pull request #635 from indradhanush/feature/add-support-go-1.13
+979c729 Add forked version of Todoist
+d735047 Add @indradhanush as a contributor
+7d0aae1 Merge branch 'bugfix/fix-vendor-errors' of github.com:indradhanush/wtf into indradhanush-bugfix/fix-vendor-errors
+78166d3 Merge branch 'improvecfgerror' of github.com:Seanstoppable/wtf into Seanstoppable-improvecfgerror
+00acaa2 Merge branch 'betterbarcolor' of github.com:Seanstoppable/wtf into Seanstoppable-betterbarcolor
+e28bdac Make default color sub. Also use default as defaults
+e9c6f90 travis: Add builds for go 1.13.x
+f737c53 Update go.mod, go.sum and vendor
+1ee3e6d go.mod: Comment out line to replace github.com/darkSasori/todist
+9fccd72 Expand and fix test
+4c3abf5 Merge pull request #630 from Seanstoppable/removepanicfromkube
+78057fc Merge pull request #629 from noxer/patch-1
+9f81207 Clean up cfg error handling a bit
+56975bc Improve bargraph view so bar colors are configurable
+e9014ec Remove panic from kubernetes client
+8d3763d Added info for using Jira with Basic-Auth
+8cf50fe Update CHANGELOG.md
+56067ae Find SSID regardless of network manager
+
 Version v0.22.0; changes since v0.21.0:
 ---------------------------------------
 

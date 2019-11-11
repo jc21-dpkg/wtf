@@ -1,3 +1,114 @@
+Version v0.24.0; changes since v0.23.0:
+---------------------------------------
+
+a6468c5 Remove docker from the build pipeline
+251e3fe Add warning for empty grid values (#741)
+b209331 Fix grid: key issue when key is present
+5bbbda2 Remove stray grid: key from dynamic_config.yml
+a18fce8 WTF-718 Fixes missing grid issue when running CmdRunner (#740)
+7c22408 Tidy go.mod
+e8bc580 Bump github.com/xanzy/go-gitlab from 0.21.0 to 0.22.0 (#739)
+867576c Bump github.com/olekukonko/tablewriter from 0.0.1 to 0.0.2 (#737)
+d81891f Bump github.com/shirou/gopsutil (#736)
+777bcd0 Bump gopkg.in/yaml.v2 from 2.2.4 to 2.2.5 (#735)
+c16560d Merge branch
+'dependabot/go_modules/github.com/alecthomas/chroma-0.6.9'
+5bed417 Fix merge conflict in go.mod
+e081222 Update CHANGELOG.md
+200dbcc WTF-730 Fix missing color key config error (#738)
+11b1742 Bump github.com/alecthomas/chroma from 0.6.8 to 0.6.9
+1bfca29 WTF-657 Add spec coverage for cfg/common_settings.go (#728)
+837dc92 Remove Hacktoberfest message
+83b98e4 Bump google.golang.org/api from 0.11.0 to 0.13.0 (#726)
+b36cb5c Update CHANGELOG.md
+0d11940 Update CHANGELOG.md
+ada434b Merge pull request #715 from Ameobea/twitterstats
+a99af9a Support both bearer + consumer tokens for Twitter modules
+41c301f Update CHANGELOG.md
+516a8b3 Update CHANGELOG.md
+263d3ec Add @madepolli as a contributor
+5950135 Merge pull request #724 from madepolli/modded_resourceusage
+9032163 Update CHANGELOG.md
+663de7d Add @C123R as a contributor
+7030eec Merge pull request #720 from C123R/master
+900d0d0 modded resourceusage
+5261325 fix: resolve PR commits
+c230853 Merge pull request #723 from wtfutil/20191024-go-mod-tidy
+4794102 fix: validation build issues
+22b40ff fix: mark favorite with ⭐
+6a3a5ea Merge branch 'master' into master
+e7e1463 feat: Add new widget for football scores and standings
+f3839d6 Tidy go.mod
+a8fae54 Merge pull request #722 from
+wtfutil/dependabot/go_modules/github.com/xanzy/go-gitlab-0.21.0
+581a28f Merge pull request #721 from
+wtfutil/dependabot/go_modules/github.com/alecthomas/chroma-0.6.8
+dd4438d Merge pull request #717 from hemu/add-view-tests
+3c21afe Bump github.com/xanzy/go-gitlab from 0.20.1 to 0.21.0
+54c0739 Bump github.com/alecthomas/chroma from 0.6.7 to 0.6.8
+d82eda1 Improvements to twitterstats code from review
+20e30fd rename tests to be consistent with other test files
+b934096 add tests for keyboard_widget
+3c95d8e Improve styling + remove unused code
+0be63a4 Implement Twitter API fetching for twitterstats
+4c9990b Implement initial twitterstats module
+d7b0669 Add @Daanikus as a contributor
+97bf420 Merge pull request #712 from Daanikus/close-file
+7f89620 Add @hemu as a contributor
+d5478af Merge pull request #710 from hemu/add-bargraph-test
+be3ad2d Update CHANGELOG.md
+8c328f0 Merge branch 'indradhanush-indradhanush/add-vendor-check-to-builds'
+e9cd22f Merge branch 'indradhanush/add-vendor-check-to-builds' of
+github.com:indradhanush/wtf into
+indradhanush-indradhanush/add-vendor-check-to-builds
+a64e026 Update CHANGELOG.md
+a8d1139 Add @3mard as a contributor
+cb63688 Merge branch 'master' of github.com:wtfutil/wtf
+f687138 Merge pull request #706 from caalberts/improve-gitlab-calls
+db9f3c7 close unclosed file
+0fd7638 Add tests for bargraph view for full coverage
+80539de Update go.mod and go.sum
+d399073 Add script to check for uncommitted vendor changes in build
+e7a42e0 chore: adjust ToDo to use ScrollableWidget
+f1303bc Rename "Approval Requests" to "Assigned Merge Requests"
+fa1bdad Add user context to GitLab project
+9a1b350 Merge pull request #705 from felicianotech/fix-default-config
+9e71c78 Add @felicianotech as a contributor
+40657d7 Merge branch 'felicianotech-fix-gomod'
+b90ae57 Remove blank line from default config.
+946e795 Remake/fix go.mod.
+26cd4f7 Fix typo in readme
+1dab374 Update readme
+b0a114d Update CHANGELOG.md
+c2ba8d4 Add @caalberts as a contributor
+031ecf0 Merge branch 'caalberts-gitlab-issues'
+6f63229 Merge branch 'gitlab-issues' of github.com:caalberts/wtf into
+caalberts-gitlab-issues
+2918e49 Fix failing specs
+e43430e Merge branch 'openutilupdate' of github.com:Seanstoppable/wtf into
+Seanstoppable-openutilupdate
+9a8771d Add docker target back to .goreleaser.yml
+90287c6 Update CHANGELOG.md
+8008e10 Merge pull request #696 from Boot-Error/feature-docker
+2fa69d1 Merge branch 'noxer-master'
+b97cb8d Merge branch 'master' of github.com:noxer/wtf into noxer-master
+8937fa2 Merge pull request #701 from noxer/patch-1
+149228d Add lists of authored and assigned issues in GitLab project
+ed9ef32 Readme update for the Go 1.12 requirement
+91cbe0c Removed Go 1.11 from the tested versions
+2267960 Revert "Revert "Call the os.UserHomeDir in Home""
+6b67baa Update CHANGELOG
+419d436 remove pull request count from issue count (#694)
+68e56ea Add new urlutil option, and have these be reloadable
+f5e0aec Updated README.md with instruction to run in docker
+9e53aed Run wtf inside docker container
+270daf3 Revert "Call the os.UserHomeDir in Home"
+d3b6bc5 Call the os.UserHomeDir in Home
+cdf37f0 Optimized ParseJson and ExecuteCommand
+5b4a49d Preallocate slice
+ca18a14 Preallocate slices and remove double type assertion
+25234e0 Update CHANGELOG.md
+
 Version v0.23.0; changes since v0.22.0:
 ---------------------------------------
 

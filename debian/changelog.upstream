@@ -1,3 +1,72 @@
+Version v0.25.0; changes since v0.24.0:
+---------------------------------------
+
+5291a31 Update CHANGELOG.md
+58299c2 WTF-484 DigitalOcean module (#782)
+e1f1d0a WTF-781 Clean up Todoist project ID handling a bit (#783)
+ac18990 Add @Gibstick as a contributor
+f3ac07c Update CHANGELOG.md
+f1ed15a Prevent flickering in cmdRunner widgets (#778)
+5f23a0c Update CHANGELOG.md
+ff2f078 Enable Jenkins module to work with Multi-configuration projects (#779)
+05b20ba Merge branch 'master' of github.com:wtfutil/wtf
+64f055d Add @NickyMateev as a contributor
+1981dbf Update CHANGELOG.md
+4ec9d33 Add shortcuts for GitHub Pull Requests and Issues (#777)
+9f6a72d Tidy go.mod
+c259e80 Bump github.com/olekukonko/tablewriter from 0.0.3 to 0.0.4 (#776)
+9bea204 Fix styling issue with IPInfo module
+98de213 go mod tidy
+d1ed36a Bump github.com/xanzy/go-gitlab from 0.22.1 to 0.22.2 (#775)
+8b9b326 Update CHANGELOG.md
+297978b Bump github.com/shirou/gopsutil (#772)
+3d513e9 Alias 'make isntall' to 'make install' because I have incompetent fingers
+31926fd Integrate vendored NewRelic dependency (#767)
+d9464c4 Use errwrap to improve fmt.Errorf() handling (#771)
+e19409d Bump github.com/adlio/trello from 1.4.0 to 1.6.0 (#769)
+325551c Update CHANGELOG.md
+07bcb79 Add @jottr as a contributor
+251e34a Explicit default false for CmdRunner.tail setting
+31ae08d Update CHANGELOG.md
+06ffc6c go mod tidy
+c8b62d8 Bump github.com/adlio/trello from 1.4.0 to 1.6.0 (#763)
+3a6bbee go mod tidy
+48882ef Bump github.com/alecthomas/chroma from 0.6.8 to 0.7.0 (#762)
+758296f Bump github.com/olekukonko/tablewriter from 0.0.2 to 0.0.3 (#761)
+a51dd30 Bump github.com/pkg/profile from 1.3.0 to 1.4.0 (#759)
+4d5722b Bump gopkg.in/yaml.v2 from 2.2.5 to 2.2.7 (#757)
+99a0d7f go mod tidy
+80698d5 Bump google.golang.org/api from 0.13.0 to 0.14.0 (#756)
+558dfd9 Bump github.com/xanzy/go-gitlab from 0.22.0 to 0.22.1 (#755)
+4b83183 Update CHANGELOG.md
+d968c03 Add @TDHTTTT as a contributor
+b864671 Update CHANGELOG.md
+307d8ae add a case where subreddit link length is less than widet.settings.numberOfPosts (#754)
+c8a14e7 Keep an initial order of the currencies so they won't be in a different order after refreshing (#752)
+f81c0ad Tidy go.mod
+53ee5b7 Update CHANGELOG.md
+fdf6e00 Bump github.com/zorkian/go-datadog-api (#751)
+7e6e8b2 Update CHANGELOG.md
+b9cf3dc Merge branch 'schoentoon-exchangerates'
+435bc59 Merge branch 'exchangerates' of github.com:schoentoon/wtf into schoentoon-exchangerates
+b3fc9e3 Update CHANGELOG.md
+d62356f Merge branch 'master' of github.com:3mard/wtf into 3mard-master
+4d20fa1 WTF-747 Fix resourceusage swap label bug (#750)
+428ff80 New header logo
+a0b45fe Update CHANGELOG.md
+b53f69b Merge branch 'update-goproxy' of github.com:chenrui333/wtf into chenrui333-update-goproxy
+f09923b Add @schoentoon as a contributor
+20792c1 Update CHANGELOG.md
+14c2e0c Added a setting to hide the completed downloads in the transmission module (#746)
+c6a1029 Set Twitter Stats wrap to false (#745)
+bf85d4b IPInfo styling (#744)
+244a86c Implemented a module that shows exchange rates from exchangeratesapi.io
+1fda749 Update FUNDING.yml
+996de81 Remove go 1.12 support (goproxy syntax issue)
+c97e4e1 Update goproxy to default proxy.golang.org
+f873bae Update CHANGELOG.md
+29d3a16 add pocket widget
+
 Version v0.24.0; changes since v0.23.0:
 ---------------------------------------
 

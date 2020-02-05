@@ -1,3 +1,96 @@
+Version v0.26.0; changes since v0.25.0:
+---------------------------------------
+
+7ab898c Bump github.com/digitalocean/godo from 1.29.0 to 1.30.0 (#832)
+eed4caf Update CHANGELOG.md
+f5df6b8 Bump github.com/shirou/gopsutil (#831)
+087aabc Update CHANGELOG.md
+1155953 Merge branch 'dependabot/go_modules/github.com/xanzy/go-gitlab-0.23.0'
+ad49c70 Merge branch 'master' into dependabot/go_modules/github.com/xanzy/go-gitlab-0.23.0
+4bc4a43 Merge branch 'dependabot/go_modules/github.com/nicklaw5/helix-0.5.5'
+f2692b0 Merge branch 'master' into dependabot/go_modules/github.com/nicklaw5/helix-0.5.5
+579b14a Merge branch 'dependabot/go_modules/gopkg.in/yaml.v2-2.2.8'
+0b3e22e Merge branch 'master' into dependabot/go_modules/gopkg.in/yaml.v2-2.2.8
+45f1565 Merge branch 'dependabot/go_modules/github.com/zorkian/go-datadog-api-2.26.0+incompatible'
+b1fba82 Merge branch 'master' into dependabot/go_modules/github.com/zorkian/go-datadog-api-2.26.0+incompatible
+d7cacef Merge branch 'dependabot/go_modules/github.com/shirou/gopsutil-2.19.12+incompatible'
+2b1ad14 Merge branch 'master' into dependabot/go_modules/github.com/shirou/gopsutil-2.19.12+incompatible
+f324882 Add @davidsbond as a contributor
+cb90d95 Update CHANGELOG.md
+7fc1ae4 Merge branch 'davidsbond-master'
+ac39734 Merge branch 'master' of github.com:davidsbond/wtf into davidsbond-master
+558a8a0 Merge branch 'master' of github.com:wtfutil/wtf
+6ce81d2 Add @firecat53 as a contributor
+28fb6d9 Update CHANGELOG.md
+9a75ac6 Fix the name of the docker build args
+9551428 Merge branch 'patch-1' of github.com:firecat53/wtf into firecat53-patch-1
+5fac24d Bump github.com/xanzy/go-gitlab from 0.22.3 to 0.23.0
+2f59635 Bump github.com/nicklaw5/helix from 0.5.4 to 0.5.5
+da1654b Bump gopkg.in/yaml.v2 from 2.2.7 to 2.2.8
+bd004d6 Bump github.com/zorkian/go-datadog-api
+1acaeb6 Allow specifying k8s context in configuration
+b178c91 Bump github.com/shirou/gopsutil
+e46d9eb Update CHANGELOG.md
+ca241b5 Merge branch 'Seanstoppable-xdg'
+d91a7f8 Merge branch 'xdg' of github.com:Seanstoppable/wtf into Seanstoppable-xdg
+5224a46 Merge branch 'Seanstoppable-upgradetview'
+965481f Update CHANGELOG.md
+b0d7061 Fix go.mod merge conflict
+fc4e68a Update CHANGELOG.md
+a21d8a0 Merge branch 'bjoernw-spacex'
+7ce90d9 Merge branch 'spacex' of github.com:bjoernw/wtf into bjoernw-spacex
+bca6350 Bump github.com/xanzy/go-gitlab from 0.22.2 to 0.22.3 (#820)
+e96dac3 Update CHANGELOG.md
+d0f0089 Bump github.com/pkg/errors from 0.8.1 to 0.9.1 (#819)
+752cda8 Add docker-build and docker-install targets to Makefile
+571526b Add build Dockerfile to build wtfutil from source in Docker and then copy binary to local machine
+b8710d6 Run wtfutil in Docker as unprivileged user
+8221cb9 Use progressive build to reduce final image size
+beccd01 Bump github.com/alecthomas/chroma from 0.7.0 to 0.7.1 (#814)
+b344b36 Bump github.com/shirou/gopsutil (#807)
+4eeb6d6 Support XDG_CONFIG_HOME
+a876c12 Upgrade tview
+ce0151b Added SpaceX Module
+c1f9c91 Add @bjoernw as a contributor
+cc169f1 WTF-33 gcal 'showAllDay' option added (#804)
+5f1aeec Update CHANGELOG.md
+3e7d515 Update CHANGELOG.md
+e679a98 WTF-758 Open HN comments if there's no external link (#802)
+86b32b3 Adding twitch module to display top streams (#805)
+fa0d876 A few minor changes made while updating documentation
+ac28176 Fix a spelling mistake in a comment:
+e1d4e60 Add myName setting to PagerDuty (#799)
+a7facc8 Add 'withDate' option to digitalclock module (#797)
+091b2b9 Update CHANGELOG.md
+2020c96 go mod tidy
+4cbbedc Update CHANGELOG.md
+c149ef6 Bump google.golang.org/api from 0.14.0 to 0.15.0 (#800)
+7b56b70 Update CHANGELOG.md
+d88b3eb Google Calendar subheading now obey global subheading color (#798)
+10f761d 20191217 gosec (#796)
+cde904f Use errcheck to find unhandled errors (#795)
+04ff03a Testing (#794)
+35a8b0e Things work better when you spell them correctly
+21255cc Actions experiment (#793)
+e9f2500 Merge branch 'master' of github.com:wtfutil/wtf
+140dd55 WTF-781 Todoist project ID conversion (#789)
+3a388fb 20191215 code improvements (#790)
+af64882 Upgrade godo to latest
+e71038c Bump github.com/digitalocean/godo from 1.22.0 to 1.29.0 (#791)
+37efebf Removed the Scarf installation instructions
+b7f8ec5 Use WTF's version of spotigopher (#787)
+53e7953 Additional improvements to the Makefile
+3d4059d go mod vendor update
+703619b WTF-748 Fixes and improves module templating (#786)
+1686c9a Add small_config.yml for testing
+ed1e6b2 WTF-784 Fix CmdRunner title spacing issue (#785)
+746ead5 Improve the Makefile
+5a64248 Improve the Makefile
+b8c87c7 Add @liyiheng as a contributor
+21d0c84 Update README.md
+1a0b0e6 Update CHANGELOG.md
+a8034fb Update CHANGELOG.md
+
 Version v0.25.0; changes since v0.24.0:
 ---------------------------------------
 

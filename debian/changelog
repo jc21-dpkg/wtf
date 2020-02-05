@@ -1,11 +1,17 @@
+wtfutil (0.26.0) unstable; urgency=medium
+
+ * See: https://github.com/wtfutil/wtf/releases/tag/v0.26.0
+
+ -- Jamie Curnow <jc@jc21.com>  Wed, 5 Feb 2019 9:00:00 +1000
+
 wtfutil (0.25.0) unstable; urgency=medium
-  
+
  * See: https://github.com/wtfutil/wtf/releases/tag/v0.25.0
-    
+
  -- Jamie Curnow <jc@jc21.com>  Sat, 14 Dec 2019 9:00:00 +1000
 
 wtfutil (0.24.0) unstable; urgency=medium
-  
+
  * See: https://github.com/wtfutil/wtf/releases/tag/v0.24.0
 
  -- Jamie Curnow <jc@jc21.com>  Mon, 11 Nov 2019 9:00:00 +1000

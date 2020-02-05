@@ -1,6 +1,6 @@
 {
 	"PACKAGE": "wtfutil",
-	"VERSION": "0.25.0",
+	"VERSION": "0.26.0",
 	"GH_USER": "wtfutil",
 	"URL": "https://github.com/${GH_USER}/wtf/archive/v${VERSION}.tar.gz",
 	"SIGN_KEY": "EFD591B218E19AE3376D80D14F9E050D1DFFBB86",

@@ -1,3 +1,32 @@
+Version v0.27.0; changes since v0.26.0:
+---------------------------------------
+
+1460229 Clean up go.mod via
+fcf78b7 Update CHANGELOG.md
+538971c Bump github.com/stretchr/testify from 1.4.0 to 1.5.1 (#846)
+a6d1aaf Bump github.com/xanzy/go-gitlab from 0.25.0 to 0.26.0 (#844)
+47b5abe Bump github.com/nicklaw5/helix from 0.5.6 to 0.5.7 (#842)
+7cfc5e0 Update CHANGELOG.md
+14fca51 Update @bjoernw as a contributor
+0ae44a4 Remove rest of vendor directory
+55c383f Merge branch 'master' of github.com:wtfutil/wtf
+bc1142d Add @yesnault as a contributor
+46d51ee Update CHANGELOG.md
+629661d Fix merge conflict in go.sum
+8dde859 Remove some unnecessary type conversions (#841)
+e32565d Update go.mod
+a1eaccb Update CHANGELOG.md
+e98a65c Bump github.com/xanzy/go-gitlab from 0.23.0 to 0.25.0 (#840)
+f9c11bf Bump github.com/nicklaw5/helix from 0.5.5 to 0.5.6 (#839)
+3554684 Bump google.golang.org/api from 0.15.0 to 0.17.0 (#838)
+dfe5558 Bump github.com/zorkian/go-datadog-api (#837)
+11fdb24 Update @elliotrushton as a contributor
+6c18282 Initial commit of gitlab todo module (#830)
+2c6e546 fix(cds/favorites): next key
+25bcd15 feat: cds modules
+e05c21e Update CHANGELOG.md
+6747784 Removing vendor directory
+
 Version v0.26.0; changes since v0.25.0:
 ---------------------------------------
 

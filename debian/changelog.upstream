@@ -1,3 +1,21 @@
+Version v0.28.0; changes since v0.27.0:
+---------------------------------------
+
+e396cf1 Update CHANGELOG.md
+38ec02f Bump github.com/zorkian/go-datadog-api (#861)
+b1cdb67 Bump github.com/adlio/trello from 1.6.0 to 1.7.0 (#859)
+36f0b6e Bump github.com/xanzy/go-gitlab from 0.26.0 to 0.28.0 (#858)
+60810af Bump github.com/digitalocean/godo from 1.30.0 to 1.32.0 (#857)
+507cba2 Bump google.golang.org/api from 0.17.0 to 0.20.0 (#855)
+bf861da Bump github.com/shirou/gopsutil (#852)
+c1abf82 Upgrade to Go 1.14 (#850)
+9bba9b3 Update CHANGELOG.md
+740e107 Add @leterio as a contributor
+62f4a17 ResourceUsage Widget @ Support to enable(default)/disable display of CPU, mem and swap
+42a1720 Update CHANGELOG.md
+3007571 Update CHANGELOG.md
+28059c9 Update CHANGELOG.md
+
 Version v0.27.0; changes since v0.26.0:
 ---------------------------------------
 

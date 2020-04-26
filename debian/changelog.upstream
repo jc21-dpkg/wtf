@@ -1,3 +1,37 @@
+Version v0.29.0; changes since v0.28.0:
+---------------------------------------
+
+5a99bbf Add @jonhadfield as a contributor
+394da85 Update CHANGELOG.md
+8613add go mod tidy
+daf1e61 Merge branch 'add_pihole' of github.com:jonhadfield/wtf into jonhadfield-add_pihole
+894afaa Merge branch 'master' of github.com:wtfutil/wtf
+4dda2e4 Add @acaloiaro as a contributor
+af4f4ed Update CHANGELOG.md
+2161244 Add event end time to gcal module display (#877)
+ad2ad74 Bump github.com/digitalocean/godo from 1.34.0 to 1.35.1 (#880)
+f895591 Update CHANGELOG.md
+4e057db Bump google.golang.org/api from 0.21.0 to 0.22.0 (#879)
+72ae0cc add pihole module.
+cb0b2f1 Update GitLab errors
+409cafc Update CHANGELOG.md
+04ade97 Bump google.golang.org/api from 0.20.0 to 0.21.0 (#872)
+2adb7db Update CHANGELOG.md
+a2ec97d Bump github.com/alecthomas/chroma from 0.7.1 to 0.7.2 (#875)
+531e293 Bump github.com/xanzy/go-gitlab from 0.29.0 to 0.31.0 (#873)
+70b626f Bump github.com/shirou/gopsutil (#871)
+53ed90d Bump github.com/digitalocean/godo from 1.33.1 to 1.34.0 (#870)
+a7d615b Update CHANGELOG.md
+15d760d Bump github.com/xanzy/go-gitlab from 0.28.0 to 0.29.0 (#868)
+db55ad5 Bump github.com/digitalocean/godo from 1.32.0 to 1.33.1 (#867)
+3393454 Bump github.com/nicklaw5/helix from 0.5.7 to 0.5.8 (#866)
+fd57ff0 Update CHANGELOG.md
+72619a9 handle multiple conversions per base currency
+62e3523 modules/exchangerate: Display exchange rate for one unit of base currency
+e453408 WTF-847 Fix the formatting of the headings in the Docket widget (#862)
+eab42ad Update CHANGELOG.md
+80edeef Update CHANGELOG.md
+
 Version v0.28.0; changes since v0.27.0:
 ---------------------------------------
 

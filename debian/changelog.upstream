@@ -1,3 +1,29 @@
+Version v0.30.0; changes since v0.29.0:
+---------------------------------------
+
+13b421b Update CHANGELOG.md
+f0ca3b8 Another actions test (#889)
+0384258 Bump google.golang.org/api from 0.22.0 to 0.23.0 (#888)
+222687c Update CHANGELOG.md
+0c0838b Bump github.com/shirou/gopsutil (#887)
+9cd9a58 Fix a bunch of minor issues found by running staticcheck
+a19c9c3 Update CHANGELOG.md
+e035f3a Add ipv6 support to ipinfo (#885)
+ad650d3 Update CHANGELOG.md
+b552bec Add @rsaarelm as a contributor
+c6f6036 Fix feed module item sorting (#886)
+5e7e866 Update CHANGELOG.md
+f99e333 Bump github.com/zorkian/go-datadog-api (#884)
+31b0f11 Update CHANGELOG.md
+45dad97 Add @mogensen as a contributor
+d712769 Merge branch 'mogensen-feature/gitlab-with-browser'
+8801689 Merge branch 'feature/gitlab-with-browser' of github.com:mogensen/wtf into mogensen-feature/gitlab-with-browser
+97fa1e5 Update CHANGELOG.md
+0b3a326 fix digitalclock display bug. (#883)
+93f8172 Add @Tdnshah as a contributor
+dbab6be Gitlab: allow for opening items in browser
+cc8f5f7 Update CHANGELOG.md
+
 Version v0.29.0; changes since v0.28.0:
 ---------------------------------------
 

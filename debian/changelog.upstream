@@ -1,3 +1,97 @@
+Version v0.31.0; changes since v0.30.0:
+---------------------------------------
+
+d493c4d Update CHANGELOG.md
+eef204c Update CHANGELOG.md
+17d5ff9 Update CHANGELOG.md
+36acf84 Bump google.golang.org/api from 0.28.0 to 0.29.0 (#933)
+5a9bdd4 Bump github.com/xanzy/go-gitlab from 0.32.1 to 0.33.0 (#931)
+1b04f75 Update README.md
+716227c Update README.md
+1e4f200 Update CHANGELOG.md
+a434668 Update CHANGELOG.md
+6714bc0 Update CHANGELOG.md
+135e978 Merge branch 'dependabot/go_modules/github.com/shirou/gopsutil-2.20.6incompatible'
+1aeba34 Merge branch 'master' into dependabot/go_modules/github.com/shirou/gopsutil-2.20.6incompatible
+48468f8 Bump github.com/digitalocean/godo from 1.37.0 to 1.38.0 (#926)
+89064ff Merge branch 'dependabot/go_modules/google.golang.org/api-0.28.0'
+e907148 Merge branch 'master' into dependabot/go_modules/google.golang.org/api-0.28.0
+90c3f0f Merge branch 'dependabot/go_modules/golang.org/x/text-0.3.3'
+c64277e Merge branch 'master' into dependabot/go_modules/golang.org/x/text-0.3.3
+484cb88 Regenerate all-contributors data
+cae65df Merge branch 'master' of github.com:wtfutil/wtf
+9603cc2 Add @ripienaar as a contributor
+bacdc82 Update CHANGELOG.md
+f104859 Merge branch 'victorops_npe' of github.com:ripienaar/wtf into ripienaar-victorops_npe
+2cf29e4 Merge branch 'toggle_weather_emoji' of github.com:jonhadfield/wtf into jonhadfield-toggle_weather_emoji
+3fd813c Schedule code analysis on Wed and Sat
+12892cb Bump github.com/shirou/gopsutil
+056707d fix go mod issues not related to pr
+15df0ee avoid npe on victorops settings
+898fc6d Create codeql-analysis.yml
+426414e tidy go modules.
+3dbfc14 remove spurious formatting.
+0b63a56 enable user to disable emoji for weather module.
+afc9e2d Bump google.golang.org/api from 0.25.0 to 0.28.0
+d38e2c4 Bump golang.org/x/text from 0.3.2 to 0.3.3
+715ec4f Update CHANGELOG.md
+4a3a3d1 Bump github.com/stretchr/testify from 1.6.0 to 1.6.1 (#919)
+21889ee Update CHANGELOG.md
+2f96fcd Bump github.com/digitalocean/godo from 1.36.0 to 1.37.0 (#914)
+767004f Bump github.com/xanzy/go-gitlab from 0.32.0 to 0.32.1 (#916)
+4432fc1 Update CHANGELOG.md
+02ef025 Update widget.go
+d383427 Always show incidents if configured
+aa5e5e7 Add TeamIDs and UserIDs filters for incidents
+068f0e4 go mod tidy
+eed194e Update CHANGELOG.md
+0eb6fcc Bump github.com/stretchr/testify from 1.5.1 to 1.6.0 (#909)
+6c71564 Update CHANGELOG.md
+3550539 Merge branch 'pihole_5_api_compat' of github.com:jonhadfield/wtf into jonhadfield-pihole_5_api_compat
+988a9de make PiHole module compatible with both versions 4 and 5 of PiHole.
+204e286 go mod tidy
+f45c231 Update CHANGELOG.md
+74154dc Add @mryanmurphy as a contributor
+a68c209 Merge branch 'mryanmurphy-master'
+92285b1 Merge branch 'master' of github.com:mryanmurphy/wtf into mryanmurphy-master
+dee6629 Update CHANGELOG.md
+e2b9589 Bump github.com/xanzy/go-gitlab from 0.31.0 to 0.32.0 (#906)
+a0a85a5 Make display whitespace consistent
+e36d6ba Add @gerchardon as a contributor
+cde24ef Update CHANGELOG.md
+b6f2d14 Merge branch 'fix-gitlabtodo-domain' of github.com:gerchardon/wtf into gerchardon-fix-gitlabtodo-domain
+a1a11df Merge branch 'master' of github.com:wtfutil/wtf
+6e79c55 Add back the args value to the golangci-lint action
+4a9dd41 Update CHANGELOG.md
+0911402 Update golangci action
+86c7e12 Merge branch 'lint' of github.com:sam-github/wtf into sam-github-lint
+003951c Update CHANGELOG.md
+c80c2fb go mod tidy
+5694b6d Bump google.golang.org/api from 0.23.0 to 0.25.0 (#904)
+234943d Bump github.com/pkg/profile from 1.4.0 to 1.5.0 (#903)
+fdd10ce go mod tidy
+322dcf6 Bump github.com/nicklaw5/helix from 0.5.8 to 0.5.9
+e554e5b go mod tidy
+0715af7 Bump gopkg.in/yaml.v2 from 2.2.8 to 2.3.0 (#893)
+75eb58d Bump github.com/digitalocean/godo from 1.35.1 to 1.36.0 (#894)
+0e3295b Merge branch 'master' of github.com:wtfutil/wtf
+bc89be8 go mod tidy
+dc05338 Bump github.com/alecthomas/chroma from 0.7.2 to 0.7.3 (#891)
+a5d55eb Merge branch 'master' into dependabot/go_modules/github.com/mmcdole/gofeed-1.0.0
+b6a666f Add setting to hide sections of GitHub module
+6981b53 Delete the docker entry from .goreleaser.yml
+4a7bdea Fix gitlabtodo usage of domain
+4bb725d golangci-lint configuration file
+e43c37c Fix broken gCal title
+cda15e8 Update CHANGELOG.md
+8212fec Bump github.com/mmcdole/gofeed from 1.0.0-beta2 to 1.0.0
+3a2b1c9 Add @sam-github as a contributor
+b49987f Add @sam-github as a contributor
+a732132 Update CHANGELOG.md
+12325ee Merge branch 'sam-github-secret-store'
+3c405da Use docker-credential-helper to manage secrets
+d247ec0 Update CHANGELOG.md
+
 Version v0.30.0; changes since v0.29.0:
 ---------------------------------------
 
